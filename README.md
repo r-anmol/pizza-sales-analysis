@@ -176,7 +176,7 @@ pizza_types
 Open:
 
 ```text
-Dashboard/Pizza_Sales_Dashboard.html
+Pizza_Sales_Dashboard.html
 ```
 
 in a modern web browser.
