@@ -1,15 +1,19 @@
--- ============================================================
--- PIZZA SALES ANALYSIS 
+--                                                   PIZZERIA PIZZA SALES ANALYSIS 
 
--- ============================================================
--- Tables: orders, order_details, pizzas, pizza_types
--- ============================================================
 
--- schema:
--- orders(order_id, order_date, order_time)
--- order_details(order_details_id, order_id, pizza_id, quantity)
--- pizzas(pizza_id, pizza_type_id, size, price)
--- pizza_types(pizza_type_id, name, category, ingredients)
+-- TABLES: 
+--        orders, 
+--        order_details, 
+--        pizzas,
+--        pizza_types
+
+
+-- SCHEMA :
+-- orders (order_id, order_date, order_time)
+-- order_details (order_details_id, order_id, pizza_id, quantity)
+-- pizzas (pizza_id, pizza_type_id, size, price)
+-- pizza_types (pizza_type_id, name, category, ingredients)
+
 
 -- ============================================================
 -- 0. DATA VALIDATION
@@ -251,6 +255,8 @@ WHERE revenue_rank <= 3
 ORDER BY category, revenue_rank;
 
 
+
+
 -- ============================================================
 -- PORTFOLIO KPIs
 -- ============================================================
@@ -299,6 +305,4 @@ GROUP BY p.size
 ORDER BY total_revenue DESC;
 
 
--- ============================================================
--- END OF PIZZA SALES ANALYSIS
--- ============================================================
+
