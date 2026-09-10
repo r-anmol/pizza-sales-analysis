@@ -2,7 +2,7 @@
 
 A SQL-driven analysis of one year of pizza sales data (Jan–Dec 2015), focused on revenue, product performance, order patterns, and category-level performance.
 
-The project combines **MySQL analysis**, an **interactive HTML dashboard**, and a **business-focused analysis report** to turn transactional data into actionable insights.
+The project combines **MySQL analysis**, an **interactive dashboard**, and a **business-focused analysis report** to turn transactional data into actionable insights.
 
 ## 📌 Project Overview
 
@@ -80,8 +80,6 @@ The SQL script also includes data-validation queries and additional portfolio KP
 
 ## 📈 Interactive Dashboard
 
-The project includes a custom interactive dashboard built using HTML, CSS, JavaScript and Chart.js.
-
 Dashboard sections:
 
 - Cumulative Revenue
@@ -140,14 +138,11 @@ pizza-sales-analysis/
 ├── SQL/
 │   └── pizza_sales_analysis.sql
 │
-├── Dashboard/
-│   └── Pizza_Sales_Dashboard.html
-│
 ├── Report/
 │   └── Pizza_Sales_Analysis_Report.pdf
 │
 └── Screenshots/
-    └── dashboard.png
+    └── dashboard.jpeg
 ```
 
 ## 🚀 How to Use
@@ -176,12 +171,9 @@ pizza_types
 Open:
 
 ```text
-Pizza_Sales_Dashboard.html
+ss1.jpeg, ss2.jpeg, ss3.jpeg
 ```
 
-in a modern web browser.
-
-The dashboard uses Chart.js and web fonts loaded through external CDNs, so an internet connection may be required for all visual elements to render correctly.
 
 ### Business Report
 
@@ -192,6 +184,7 @@ Report/Pizza_Sales_Analysis_Report.pdf
 ```
 
 for the detailed analysis, findings, recommendations and business-question answers.
+
 
 ## 📚 Dataset Schema
 
@@ -245,8 +238,4 @@ Pizza names, categories and ingredient information.
 
 **Anmol Ratan**
 
----
 
-
-# pizza-sales-analysis
-SQL-driven analysis of pizza sales data with an interactive dashboard.
